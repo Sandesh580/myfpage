@@ -1,5 +1,5 @@
 # Use Node.js 16 to avoid OpenSSL compatibility issues in other environments
-FROM node:16
+FROM node:21
 
 # Set working directory in container
 WORKDIR /app
