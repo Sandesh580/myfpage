@@ -1,5 +1,5 @@
-
 import "./App.css";
+import React from "react";
 import Sidebar from "./component/Sidebar/Sidebar";
 import Home from "./component/Home/Home";
 import About from "./component/About/About";
@@ -12,10 +12,9 @@ import Testimonials from "./component/Testimonials/Testimonials";
 import Blog from "./component/Blog/Blog";
 function App() {
   return (
-    
     <>
-     <Sidebar />
-     <main className="main">
+      <Sidebar />
+      <main className="main">
         <Home />
         <About />
         <Services />
@@ -23,10 +22,9 @@ function App() {
         <Portfolio />
         <Pricing />
         <Testimonials />
-        <Blog />    
+        <Blog />
         <Contact />
-     </main>  
-   
+      </main>
     </>
   );
 }
