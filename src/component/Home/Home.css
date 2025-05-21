@@ -44,24 +44,123 @@
 
 .scroll__down {
     position: absolute;
-    bottom: 2.5rem0;
+    bottom: 2.5rem;
     left: 0;
     width: 100%;
 
 }
 
 .mouse{
-    border: 2 px solid var(--title-color);
-    display: fexfob;
-    botton:
-}
-
-.home__scrool-name{
-    border: 2px solid var(--title-color);
+    border: 2 px solid #454360;
     display: block;
+    height: 1.6rem;
+    width: 1.25rem;
+    margin:auto;
+    margin-top: .75rem;
+    border-radius: 1rem;
+    position: relative;
+}
 
-   kll 
+.home__scroll-name{
+    font-size: var(--small-font-sze);
+
+   
+
+}
+
+@keyframes anti-mouse {
+    0%{
+        top:29%;
+    }
+    15%{
+        Top: 20%;
+    }
+    50%{
+       
+            top: 50%;
+        
+       }
+    }
+
+.wheel{
+
+    background-color: var(--title-color);
+    border-radius: 100%;
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    top: .5rem;
+    left:50%;
+    transform:translateX(-50%);
+    animation: anti-mouse 2s linear infinite;
 
 }
 
 
+.shapes{
+    position: absolute;
+    left:0;
+    top:0;
+    height: 100%;
+    width: 100%
+}
+
+.shape{
+    position: absolute;
+}
+
+.S1{
+    left:2%;
+    top: 10%;
+}
+
+.s2 {
+    left: 18%;
+    top:30%;
+
+}
+
+.s3{
+    left: 5%;
+    bottom: 10%;
+}
+
+.s4{
+left: 2%;
+bottom: 10%;
+}
+
+.s5{
+left: 44%;
+top: 10%;
+}
+
+.s6{
+    left: 36%;
+    bottom: 10%;
+}
+
+.s7{
+    top: 20%;
+    right: 25%;
+}
+
+.s8{
+    right: 24%;
+    bottom: 20%;
+}
+
+.s9{
+    right: 2%;
+    top: 10%;
+}
+
+.s10{
+    top: 45%;
+    right: 11%;
+}
+
+.s11{
+    bottom: 10%;
+    right: 2%;
+}
