@@ -1,8 +1,17 @@
+
 import React from "react";
 import "./Home.css";
 import Me from "../../assets/avatar-1.svg";
 import HeaderSocial from "./HeaderSocial";
 import ScroolDown from "./ScroolDown";
+
+import React from 'react';
+import './Home.css'
+import Me from '../../assets/avatar-1.svg'
+import HeaderSocial from './HeaderSocial';
+import ScroolDown from './ScroolDown';
+import Shapes from './Shapes';
+
 const Home = () => {
   return (
     <section className="home container" id="home">
@@ -15,6 +24,7 @@ const Home = () => {
           Hire me
         </a>
         <ScroolDown />
+        <Shapes />
       </div>
     </section>
   );
